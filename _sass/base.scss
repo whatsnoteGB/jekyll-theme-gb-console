@@ -68,6 +68,11 @@ input[type=submit]:hover { color: var(--background-color); background-color: var
 textarea { vertical-align: top; }
 
 /**
+ * Video
+ */
+video { object-fit: fill !important }
+
+/**
  * Code and syntax highlighting
  */
 .lineno { color: var(--code-color-1); margin-right: 15px; }
