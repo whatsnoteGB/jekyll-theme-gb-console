@@ -83,7 +83,7 @@ footer {
     border-top: var(--border);
     margin: 20px auto 15px;
     padding-top: 10px;
-    text-align: right;
+    text-align: left;
 }
 
 header {
@@ -169,7 +169,7 @@ footer {
  */
 footer::after {
     content: "";
-    position: relative;
+    position: static;
     top: 0;
     right: -15px;
     text-align: left;
@@ -177,7 +177,7 @@ footer::after {
     display: inline-block;
     background-color: #fff;
     vertical-align: top;
-    width: 10px;
+    width: 8px;
     /* Set height to the line height of .text */
     height: $base-font-size;
     /* 
