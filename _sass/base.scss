@@ -169,9 +169,10 @@ footer {
  */
 footer::after {
     content: "";
-    position: absolute;
+    position: relative;
     top: 0;
     right: -15px;
+    text-align: left;
     /* Remove display: inline-block if not required to be on the same line as text etc */
     display: inline-block;
     background-color: #fff;
